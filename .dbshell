@@ -1,0 +1,22 @@
+compass
+mongodb compass
+show dbs
+use admin
+db
+show collections
+db.createCollection('test')
+et
+show collections
+db.est.drop()
+show collections
+db.test.drop()
+show collections
+db.createCollection('cluster1')
+db.comments.insert({})
+db.comments.find(pretty)
+db.comments.insert({data})
+db.comments.find
+db.comments.count
+db
+db.createUser dmin
+db.createCollection cluster
