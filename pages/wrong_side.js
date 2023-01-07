@@ -3,8 +3,8 @@ import Footer from './Components/Footer';
 import Navbar from './Components/Navbar';
 import { useAddressContext } from '../context/addressContext';
 import $ from 'jquery';
-import bike from '';
-import car from '';
+import bike from '../img/hero-car.png';
+import car from '../img/car.png';
 import { Button, useToast } from '@chakra-ui/react';
 import Head from 'next/head';
 
