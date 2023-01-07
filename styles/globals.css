@@ -14,7 +14,7 @@ html {
 .logo {
   width: 120px;
   height: 30px;
-  background-image: url('');
+  background-image: url('../public/assets/vercel.svg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -42,13 +42,13 @@ html {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #b854ff;
+  background: #ff8819;
   border-radius: 50px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #7833a8;
+  background: #fedd04;
 }
 ::-webkit-scrollbar-corner {
   color: #000000;
@@ -92,7 +92,7 @@ html {
   left: 43%;
   bottom: 0vw;
   background-size: cover;
-  background-image: url('');
+  background-image: url('../img/bike.png');
 }
 .rock {
   width: 14%;
@@ -109,13 +109,13 @@ html {
 .right {
   right: 4%;
   bottom: 4%;
-  background-image: url('');
+  background-image: url('../img/right-btn.png');
   background-size: contain;
 }
 .left {
   left: 4%;
   bottom: 4%;
-  background-image: url('');
+  background-image: url('../img/left-btn.png');
   background-size: contain;
 }
 .scoreboard {
@@ -184,7 +184,7 @@ html {
   height: 40%;
 }
 .start-screen {
-  background-image: url('');
+  background-image: url('../img/startpage-bg.png');
   background-size: cover;
   display: flex;
   justify-content: center;
@@ -197,7 +197,7 @@ html {
 .start-btn {
   bottom: 0;
   cursor: pointer;
-  background-image: url('');
+  background-image: url('../img/play-btn.png');
   background-color: black;
   background-repeat: no-repeat;
   border: blueviolet;
@@ -215,12 +215,12 @@ html {
   background-color: white;
 }
 .game-over-screen {
-  background-image: url('');
+  background-image: url('../img/gameover-bg.png');
   background-size: cover;
 }
 .retry-btn {
   cursor: pointer;
-  background-image: url('');
+  background-image: url('../img/retry-btn.png');
   background-color: black;
   border: blueviolet;
   border-style: solid;

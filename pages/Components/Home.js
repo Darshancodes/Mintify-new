@@ -29,7 +29,7 @@ const Home = () => {
                 border="1px solid #F97316"
                 _hover={{
                   backgroundColor: '#000',
-                  border: '1px solid #915bff',
+                  border: '1px solid #bbffff',
                   color: 'white',
                 }}
                 display="inline-flex"

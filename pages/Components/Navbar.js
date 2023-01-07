@@ -54,13 +54,13 @@ const Navbar = () => {
         <div className="space-x-2 flex">
           {/* search  */}
           <Link href="/create" passHref>
-            <button className="w-32 bg-[#F97316] px-2 py-1 rounded-md font-bold bg-purple hover:bg-purple-900">
+            <button className="border-2 border-solid w-32 bg-[#F97316] px-2 py-1 rounded-md font-bold hover:bg-black hover:text-white">
               Create
             </button>
           </Link>
           {!address ? (
             <button
-              className="border-2 border-solid px-2 py-1 rounded-md  font-bold hover:bg-white hover:text-purple"
+              className="border-2 border-solid px-2 py-1 rounded-md font-bold hover:bg-white hover:text-purple"
               onClick={() => checkWallet()}
             >
               Connect
