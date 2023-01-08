@@ -18,7 +18,7 @@ export default async function mint(req, res) {
 
   const wallet = new ethers.Wallet(process.env.PRIVATE_KEY, ethers.getDefaultProvider(rpcUrl));
 
-  const marketAddress = '0xfCfD2B2C9898080d93aAa195Ae38701f6FA82C8e';
+  const marketAddress = '0x6A7e43494E72BAfc47FCdECeC67c827c218e2bCd';
   const marketCollection = new ThirdwebSDK(wallet).getMarketplaceModule(marketAddress);
 
   // returning the HTTP response. This depends on the HTTP server framework.

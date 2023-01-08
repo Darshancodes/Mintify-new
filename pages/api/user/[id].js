@@ -2,7 +2,7 @@ import { ThirdwebSDK } from '@3rdweb/sdk';
 import { ethers } from 'ethers';
 
 export default async function mint(req, res) {
-  const rpcUrl = 'rinkeby';
+  const rpcUrl = 'goerli';
 
   const wallet = new ethers.Wallet(process.env.PRIVATE_KEY, ethers.getDefaultProvider(rpcUrl));
 

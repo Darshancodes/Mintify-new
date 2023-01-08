@@ -74,7 +74,7 @@ export default function MintPage() {
     if (provider === undefined || chainId === undefined || chainId !== 4) {
       toast({
         title: 'Connect Wallet',
-        description: 'Connect your wallet and switch to Rinkeby network',
+        description: 'Connect your wallet and switch to Goerli network',
         status: 'error',
         duration: 9000,
         isClosable: true,
@@ -107,9 +107,9 @@ export default function MintPage() {
     }
     setMintStage(1);
 
-    const marketAddress = '0x1b741227186B2d2a7D2238E5fd5A701a55FDc5B1';
+    const marketAddress = '0x6A7e43494E72BAfc47FCdECeC67c827c218e2bCd';
 
-    const nftCollectionAddress = '0x174F232AC83Cc1b13F2c42cE914783B62a23Aa59';
+    const nftCollectionAddress = '0x8010bD6250599516F20878E9D226c6BcC0d49658';
 
     try {
       const market = sdk.getMarketplaceModule(marketAddress);

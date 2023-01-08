@@ -10,7 +10,7 @@ const Home = () => {
 
       {/* Slogan */}
       <div className="md:w-1/2 w-full flex flex-col justify-center items-center md:justify-start md:items-start space-y-4">
-        <h1 className="text-[43px] md:text-[75px] font-bold">
+        <h1 className="py-30 text-[43px] md:text-[75px] font-bold">
           Create<span className="text-[#F97316]">.</span>Mint
           <span className="text-[#F97316]">.</span>Sell
         </h1>

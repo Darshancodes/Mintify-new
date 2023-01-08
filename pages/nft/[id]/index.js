@@ -73,7 +73,7 @@ export default function Nftpage() {
       onClose();
       toast({
         title: 'Connect Wallet',
-        description: 'Connect your wallet and switch to Rinkeby network',
+        description: 'Connect your wallet and switch to Goerli network',
         status: 'error',
         duration: 9000,
         isClosable: true,
@@ -83,7 +83,7 @@ export default function Nftpage() {
     }
     const listingId = id;
     const quantityDesired = '1';
-    const market = sdk.getMarketplaceModule('0xfCfD2B2C9898080d93aAa195Ae38701f6FA82C8e');
+    const market = sdk.getMarketplaceModule('0x6A7e43494E72BAfc47FCdECeC67c827c218e2bCd');
     console.log(market);
     await market
       .buyoutDirectListing({ listingId, quantityDesired })
@@ -202,7 +202,7 @@ export default function Nftpage() {
                       <Tooltip label="View on Etherscan" hasArrow fontSize="sm">
                         <Code className="address truncate">
                           <a
-                            href={`https://rinkeby.etherscan.io/address/${nft.assetContractAddress}`}
+                            href={`https://goerli.etherscan.io/address/${nft.assetContractAddress}`}
                             target="_blank"
                             rel="noreferrer"
                           >

@@ -3,7 +3,7 @@ import { ethers, providers } from 'ethers';
 import { NextApiRequest, NextApiResponse } from 'next';
 
 export default async function mint(req, res) {
-  const rpcUrl = 'mumbai';
+  const rpcUrl = 'goerli';
 
   const wallet = new ethers.Wallet(process.env.PRIVATE_KEY, ethers.getDefaultProvider(rpcUrl));
 
