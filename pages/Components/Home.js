@@ -14,14 +14,14 @@ const Home = () => {
           Create<span className="text-[#F97316]">.</span>Mint
           <span className="text-[#F97316]">.</span>Sell
         </h1>
-        <p className="text-[10px] md:text-[15px] text-center md:text-start px-1.5 text-[#D1D5DB] tracking-widest">
+        <p className="text-[10px] md:text-[15px] py-10 text-center md:text-start px-1.5 text-[#D1D5DB] tracking-widest">
           Create. Buy. Sell and even play with your own pixelated NFTs. This is
           one true stop for all the pixel art lovers & makers.{" "}
         </p>
         <div className="w-full flex justify-between items-center md:justify-start space-x-4 pt-5">
 
         <Link href="/create" passHref>
-              <Button
+              {/*<Button
                 as="a"
                 variant="solid"
                 left={1.5}
@@ -48,10 +48,11 @@ const Home = () => {
                     clipRule="evenodd"
                   />
                 </Icon>
-              </Button>
+              </Button> */}
+              Create
             </Link>
             <Link href="/marketplace" passHref>
-              <Button
+              {/*<Button
                 as="a"
                 backgroundColor="#F97316"
                 border="1px solid #F97316"
@@ -76,7 +77,8 @@ const Home = () => {
                     clipRule="evenodd"
                   />
                 </Icon>
-              </Button>
+              </Button> */}
+              Explore
             </Link>
 
         </div>
