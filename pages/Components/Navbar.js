@@ -3,7 +3,7 @@ import { FaEthereum } from 'react-icons/fa';
 import React from 'react';
 import { useState } from 'react';
 import Link from 'next/link';
-// import thirdweb
+import { ConnectWallet } from '@thirdweb-dev/react';
 import { useWeb3, useSwitchNetwork } from '@3rdweb/hooks';
 import { useAddressContext } from '../../context/addressContext';
 const Navbar = () => {
