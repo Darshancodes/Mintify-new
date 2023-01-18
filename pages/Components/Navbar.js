@@ -3,7 +3,7 @@ import { FaEthereum } from 'react-icons/fa';
 import React from 'react';
 import { useState } from 'react';
 import Link from 'next/link';
-import { ConnectWallet } from '@thirdweb-dev/react';
+import { ConnectWallet } from "@thirdweb-dev/react";
 import { useWeb3, useSwitchNetwork } from '@3rdweb/hooks';
 import { useAddressContext } from '../../context/addressContext';
 const Navbar = () => {
@@ -49,6 +49,7 @@ const Navbar = () => {
             </Link>
           </ul>
         </div>
+
 
         {/* buttons  */}
         <div className="space-x-2 flex">

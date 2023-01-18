@@ -4,7 +4,7 @@
 
 // await module.buyoutDirectListing({ listingId, quantityDesired });
 
-import { ThirdwebSDK } from '@3rdweb/sdk';
+import { ThirdwebSDK } from '@thirdweb-dev/sdk';
 import { useWeb3 } from '@3rdweb/hooks';
 import { ethers, BigNumber, constants } from 'ethers';
 

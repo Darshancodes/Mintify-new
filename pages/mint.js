@@ -16,7 +16,7 @@ import { useAddressContext } from '../context/addressContext';
 import { useWeb3 } from '@3rdweb/hooks';
 import { FiXCircle } from 'react-icons/fi';
 import { BiCheckCircle } from 'react-icons/bi';
-import { ThirdwebSDK } from '@3rdweb/sdk';
+import { ThirdwebSDK } from "@thirdweb-dev/sdk";
 import { ethers } from 'ethers';
 import Link from 'next/link';
 import Confetti from 'react-confetti';
@@ -47,7 +47,7 @@ export default function MintPage() {
       provider !== undefined ? new ThirdwebSDK(provider.getSigner(address)) : new ThirdwebSDK();
     setSDK(newSDK);
   };
-  // basic-form-check
+   basic-form-check
   const checkForm = () => {
     if (!name?.trim()) return false;
     if (!description?.trim()) return false;

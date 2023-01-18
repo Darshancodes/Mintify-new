@@ -22,7 +22,7 @@ import {
   useDisclosure,
 } from '@chakra-ui/react';
 import { useWeb3 } from '@3rdweb/hooks';
-import { ThirdwebSDK } from '@3rdweb/sdk';
+import { ThirdwebSDK } from '@thirdweb-dev/sdk';
 import Head from 'next/head';
 
 export default function Nftpage() {
